@@ -1,0 +1,113 @@
+
+
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* Header design */
+.header{
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left,bottom right;
+}
+
+/* nav design */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+
+}
+.btn-primary{
+    font-weight:bold;
+    font-size: 20px;
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    padding: 18px 36px;
+    border: none;
+}
+.text-primary{
+    color: #FD6E0A;
+}
+.secondary-bg{
+    background-color: #FFF8F3;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+.dark-2{
+color: #474747;
+}
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+/* bannar-styles */
+.bannar{
+display: flex;
+justify-content: space-between;
+margin: 0px 30px 0px 210px;
+}
+.bannar-content{
+    height: 350px;
+    width: 585px;
+    margin-top: 22px;
+}
+.bannar-greetings{
+    font-weight:600;
+    font-size: 45px;
+}
+.bannar-title{
+font-size: 85px;
+font-weight: bold;
+
+}
+.bannar-profile-pic{
+    width: 580px;
+    height: 676px;
+}
+/* main section */
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.section-description{
+    font-size: 18;
+    color: 757575;
+}
+main{
+    margin: 0 auto;
+    max-width: 1140px;
+}
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    margin-top: 130px;
+    text-align: center;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+
+    
+}
+.item-description{
+    font-weight: bold;
+}
